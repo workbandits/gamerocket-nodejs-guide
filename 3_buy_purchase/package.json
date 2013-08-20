@@ -1,0 +1,22 @@
+{
+    "name": "3_buy_purchase",
+    "description": "(pending)",
+    "version": "1.0.0",
+    "main": "./3_buy_purchase.js",
+    "author": {
+        "name": "Julien Vincent",
+        "email": "julien.vincent@workbandits.com"
+    },
+    "keywords": [],
+    "licenses": {
+        "type": "none"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/YOUR_LOGIN/3_buy_purchase.git"
+    },
+    "bugs": {
+        "web": "http://github.com/YOUR_LOGIN/3_buy_purchase/issues"
+    }
+}
+

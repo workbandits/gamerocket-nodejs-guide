@@ -1,0 +1,21 @@
+{
+    "name": "2_run_action",
+    "description": "(pending)",
+    "version": "1.0.0",
+    "main": "./2_run_action.js",
+    "author": {
+        "name": "Julien Vincent",
+        "email": "julien.vincent@workbandits.com"
+    },
+    "keywords": [],
+    "licenses": {
+        "type": "none"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/YOUR_LOGIN/2_run_action.git"
+    },
+    "bugs": {
+        "web": "http://github.com/YOUR_LOGIN/2_run_action/issues"
+    }
+}
