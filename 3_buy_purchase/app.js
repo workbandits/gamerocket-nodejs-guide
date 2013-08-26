@@ -7,8 +7,8 @@ app.use(express.bodyParser());
 
 var gateway = gamerocket.connect({
   environment: gamerocket.Environment.Development,
-  apiKey: "your_api_key",
-  secretKey: "your_secret_key"
+  apiKey: "your_apiKey",
+  secretKey: "your_secretKey"
 });
 
 app.get("/", function (req, res) {
@@ -45,10 +45,10 @@ app.get("/run_action", function (req, res) {
   );
 });
 
-app.get("/unlock-content", function (req, res) {
+app.get("/unlock_content", function (req, res) {
   gateway.purchase.buy(
     "unlock-content",
-    { player: "your_player_id" },
+    { player: "<use_player_id>" },
     function (err, result) {
       if (result) {
         res.send("<h1>Success!" + result.data["message"] + "</h1>");
